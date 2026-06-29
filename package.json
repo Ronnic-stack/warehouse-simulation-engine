@@ -1,0 +1,23 @@
+{
+  "name": "warehouse-sim",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test:core": "vitest run" 
+  },
+  "dependencies": {
+    "papaparse": "^5.5.4",
+    "pathfinding": "^0.4.18"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.5.2",
+    "@types/pathfinding": "^0.1.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vitest": "^4.1.9"
+  }
+}
